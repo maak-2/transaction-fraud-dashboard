@@ -23,7 +23,6 @@ The dashboard enables users to:
 - Understand customer characteristics such as account age and transaction frequency  
 - Access a fully filter-aware dataset via an interactive data table  
 
-This dashboard mirrors real-world analytical workflows used in finance, e-commerce, risk management, and business intelligence teams.
 
 ---
 

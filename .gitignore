@@ -1,0 +1,77 @@
+# ---------------------------
+# R PROJECT / RSTUDIO FILES
+# ---------------------------
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.Rproj
+.Rapp.history
+
+# R environment files
+.Renviron
+.Rprofile
+
+# Shiny app temporary files
+rsconnect/
+shinyapps.io/
+
+# R package build artifacts
+*.Rcheck/
+*.tar.gz
+*.Rproj.user
+*.o
+*.so
+*.dll
+
+# ---------------------------
+# LARGE FILES / DATASETS
+# ---------------------------
+
+# Ignore very large raw datasets (customize if needed)
+data/raw/*
+*.zip
+*.tar
+*.gz
+*.7z
+
+# Ignore any file larger than 50MB using Git LFS pattern
+# (GitHub recommends ignoring binary data)
+*.bin
+*.h5
+*.pickle
+*.pkl
+*.db
+*.sqlite
+*.feather
+*.parquet
+
+# If you use Git LFS for large files:
+# (uncomment this if needed)
+# *.csv filter=lfs diff=lfs merge=lfs -text
+
+# ---------------------------
+# LOGS AND TEMP FILES
+# ---------------------------
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
+
+# ---------------------------
+# OS-GENERATED FILES
+# ---------------------------
+
+# macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Linux temp files
+*~

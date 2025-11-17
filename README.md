@@ -45,13 +45,61 @@ this data was gotten from kaggle
 
 ---
 
+### Fields Included
+- `transaction_time`  
+- `amount`  
+- `country`  
+- `channel`  
+- `merchant_category`  
+- `total_transactions_user`  
+- `account_age_days`  
+- `is_fraud`
+
+**Note:**  
+The dataset is not included in the repository for privacy reasons.  
+Users may substitute their own dataset using the same column structure.
+
+---
+
 ## Tech Stack
 - R  
 - Shiny  
 - dplyr  
-- ggplot2  
 - lubridate  
+- ggplot2  
 - scales  
 - DT  
 
 ---
+
+## Key Features
+
+### Dynamic Filtering
+Filter the dataset by:
+- Date range  
+- Country  
+- Channel  
+- Merchant category  
+- Fraud-only vs all transactions  
+
+### KPI Metrics
+- Total transactions  
+- Total amount  
+- Average transaction value  
+- Fraud rate  
+
+### Time-Series Charts
+- Transactions per day  
+- Fraud incidents per day  
+
+### Category and Country Analysis
+- Total amount by merchant category  
+- Fraud rate per country  
+
+### Customer Profile Insights
+- Distribution of account age (days)  
+- Total transactions per user  
+
+### Interactive Data Table
+Search, sort, and explore the filtered dataset using a DT-powered table.
+

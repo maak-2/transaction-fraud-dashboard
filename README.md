@@ -55,9 +55,6 @@ this data was gotten from kaggle
 - `account_age_days`  
 - `is_fraud`
 
-**Note:**  
-The dataset is not included in the repository for privacy reasons.  
-Users may substitute their own dataset using the same column structure.
 
 ---
 
